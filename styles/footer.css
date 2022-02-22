@@ -1,0 +1,16 @@
+.footer {
+    border-top: 2px solid #545d5f;
+    background-color: #2d3436;
+    padding: 1rem;
+}
+
+.footer address {
+    text-align: center;
+    font-style: normal;
+    color: #f1f5f6;
+}
+
+.footer address span {
+    color: #00b894;
+    font-weight: 700;
+}

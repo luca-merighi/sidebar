@@ -1,0 +1,40 @@
+.section {
+    padding: 5rem 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.section .content {
+    color: #f1f5f6ca;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .content:nth-child(even) {
+    background-color: #3d4547;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section .content p {
+    line-height: 1.5rem;
+}
+
+@media(min-width: 768px) {
+    
+    .section .content p {
+        width: 90%;
+    }
+}
+
+@media(min-width: 1024px) {
+    
+    .section .content p {
+        width: 50%;
+    }
+}
